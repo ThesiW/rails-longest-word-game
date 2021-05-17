@@ -1,0 +1,48 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,300,700|Raleway:300,400,500,700");
+
+
+body {
+  background: #EBEDEF;
+  align-content: center;
+  font-family: 'Open Sans', Montserrat;
+}
+
+#form {
+  display: flex;
+  margin-right: 0px;
+  justify-content:space-between;
+}
+
+#input {
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Open Sans', Montserrat;
+  width: 100%;
+
+}
+
+#btn {
+  background-color: #37546E;
+  color: white;
+  border-radius: 4px;
+  margin-left: 8px;
+  padding: 0 32px;
+  font-size: 16px;
+  font-family: 'Open Sans', Montserrat;
+  text-align: right;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 200px;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,22 @@
+<!-- The new action will be used to display a new random grid and a form.  -->
+
+
+
+<body class="container">
+  <h1>New Game</h1>
+  <%= @letters %>
+  <!-- <div class="grid">
+
+  </div> -->
+  <p>What's the longest word you can find?</p>
+  <form id="form" action="score" method="post">
+    <input id="input" type="text" name="word" value= "<%= params[:word] %>">
+    <input id="btn" type="submit" value="Play!">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <%= hidden_field_tag :letters, @letters %>
+  </form>
+
+
+</body>
+
+
